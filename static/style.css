@@ -957,6 +957,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            text-align: center;
         }
         .metnn {
             margin-bottom: 30px;
@@ -1019,12 +1020,14 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            text-align: center;
         }
         .left h1 {
             font-size: 3em;
         }
         .paragraf {
-            width: 380px;
+            width: 370px;
+            margin-left: 5px;
         }
         .complete {
             display: flex;
