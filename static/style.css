@@ -1012,6 +1012,15 @@
             display: flex;
             flex-direction: column;
         }
+        .endd {
+            display: flex;
+            flex-direction: column;
+        }
+        .end2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
     
     button {
