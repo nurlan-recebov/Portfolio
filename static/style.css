@@ -159,7 +159,7 @@
     
     @keyframes slide {
         25% {
-            background-image: url(../static/image/mac1.jpg);
+            background-image: url(../static/image/mac2.jpg);
         }
         50% {
             background-image: url(../static/image/slider2.jpg);
@@ -1008,7 +1008,7 @@
             flex-direction: column;
         }
         .arxa {
-            font-size: 4.5em;
+            font-size: 4.1em;
         }
         .bolum {
             width: 350px;
