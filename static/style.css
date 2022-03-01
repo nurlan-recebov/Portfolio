@@ -700,7 +700,7 @@
     .ha {
         background-color: #111418;
         width: 460px;
-        height: 320px;
+        height: 360px;
         box-sizing: border-box;
         margin-bottom: 10px;
     }
@@ -1038,6 +1038,10 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+        }
+        .ha {
+            width: 360px;
+            height: 300px;
         }
     }
     
