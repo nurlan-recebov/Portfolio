@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/admin.css">
+
+    <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900">
+    <link rel="stylesheet" href="link rel=" preconnect href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+</head>
+
+<body>
+    <section id="Home">
+        <div class="container">
+            <div class="right">
+                <div class="img">
+                    <img src="../static/image/n1.jpg" alt="">
+                    <div>
+                        <h1>Nurlan Cahangirov</h1>
+                    </div>
+                </div>
+                <div class="tammenyu">
+                    <div class="menyu">
+                        <ul>
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#About-Me">About Me</a></li>
+                            <li><a href="#WhatIdo">What I do</a></li>
+                            <li><a href="#Resume">Resume</a></li>
+                            <li><a href="#Portfolio">Portfolio</a></li>
+                            <li><a href="#Testimonial">Testimonial</a></li>
+                            <li><a href="#Contact">Contact</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="icons">
+                        <ul>
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter-square"></i>
+                            <i class="fas fa-basketball-ball"></i>
+                            <i class="fab fa-github-square"></i>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="left">
+                <div class="shadow">
+                </div>
+                <div class="bir">
+                    <h2>Welcome</h2>
+                    <h1>Admin Nurlan Cahangirov</h1>
+                    <h3>based in Baku</h3>
+                    <button>
+                        <h3>Hire me</h3>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="About-Me">
+
+        <div class="container1">
+            <div class="shodow1"></div>
+            <div class="arxa">ABOUT ME</div>
+
+            <h1>Know Me More</h1>
+            <div class="span"> <span></span></div>
+            <div class="bolum">
+                <div class="metnn">
+                    <div class="yazi">
+                        <h2>Im &nbsp; </h2>
+                        <div class="ad">
+                            <h2> Cahangirov Nurlan,</h2>
+
+                        </div>
+
+                        <h2> a Web Devoloper</h2>
+                    </div>
+                    <div class="paragraf">
+                        <p>I help you build brand for your business at an affordable price. Thousands of clients have procured exceptional results while working with our dedicated team. when an unknown printer took a galley of type and scrambled it to make
+                            a type specimen book.</p>
+                        <p>Delivering work within time and budget which meets client’s requirements is our moto. Lorem Ipsum has been the industry's standard dummy text ever when an unknown printer took a galley.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="inputs">
+                    <div> <input type="text" placeholder="Name: Cahangirov Nurlan"></div>
+                    <div><input type="email" placeholder="Nurlanrecebov86@gmailcom"></div>
+                    <div> <input type="text" placeholder="Age:24"></div>
+                    <div> <input type="text" placeholder="From:Baku"></div>
+                    <div class="button"> <button><a href="#">
+                                <p>Download CV</p>
+                            </a></button></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="WhatIdo">
+        <div class="container1">
+            <div class="shodow1"></div>
+            <div class="arxa">SERVICES</div>
+            <h1>What I Do?</h1>
+            <div class="span"> <span></span></div>
+            <div class="tam">
+                <div class="birinci">
+
+                </div>
+                <div class="ikinc ">
+                    <div class="send ">
+                        <p>SEND US A NOTE</p>
+                    </div>
+                    <div class="soninput ">
+                        <form action="/admin" method="POST" enctype="multipart/form-data">
+                            <div class="labelinput ">
+                                <label for="img"><p>Select image:</p></label>
+                                <input type="file" id="img" name="sekil" accept="image/*">
+                                <input type="text " placeholder="Ad" name='ad'>
+                                <input type="text " placeholder="Paragraf" name='paragraf'>
+                            </div>
+
+                            <div>
+                                <div class="button1 "> <button type="submit ">
+                                    <p>Gonder</p>
+                                </button></div>
+                            </div>
+                        </form>
+                    </div>
+                    <table class="table">
+
+
+
+
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Sekil</th>
+                            <th scope="col">AD</th>
+                            <th scope="col">Paragraf</th>
+                            <th scope="col">Tarix</th>
+                            <th scope="col">Actions</th>
+
+                        </tr>
+
+
+                        {% for xeber in xeberler %}
+                        <tr>
+                            <td>{{xeber.n_id}}</td>
+                            <td>
+                                <img src="../static/uploads/{{xeber.n_img}}" alt="" class="img-thumbnail" style="width: 100px;">
+                            </td>
+                            <td>{{xeber.n_ad}}</td>
+                            <td>{{xeber.n_paragraf}}</td>
+                            <td>{{xeber.n_date}}</td>
+
+                            <td>
+
+                                <a href="/admin/delete/{{xeber.n_id}}"><i class="fas fa-trash-alt"></i></a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+
+
+                    </table>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+        </div>
+    </section>
+    <section id="Resume">
+        <div class="container1">
+            <div class="shodow1"></div>
+            <div class="arxa">SUMMARY</div>
+            <h1>Resume</h1>
+            <div class="span"> <span></span></div>
+            <div class="center">
+                <div class="movcud">
+
+                    <div class="ikinc ">
+                        <div class="send ">
+                            <p>SEND US A NOTE</p>
+                        </div>
+                        <div class="soninput ">
+                            <form action="/nurlan" method="POST" enctype="multipart/form-data">
+                                <div class="labelinput ">
+                                    <input type="date" placeholder="Date" name="date">
+                                    <input type="text " placeholder="Ixtisas" name='ixtisas'>
+                                    <input type="text " placeholder="Universtetin adi" name='universtet'>
+                                    <input type="text " placeholder="Paragraf" name='haqqinda'>
+                                </div>
+
+                                <div>
+                                    <div class="button1 "> <button type="submit ">
+                                    <p>Gonder</p>
+                                </button></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <table class="table">
+
+                        <tr>
+                            <th scope="col">Date</th>
+                            <th scope="col">Ixtisasadi</th>
+                            <th scope="col">Universtetadi</th>
+                            <th scope="col">Haqqinda</th>
+                            <th scope="col">Actions</th>
+                        </tr>
+
+
+                        {% for task in tasklar %}
+                        <tr>
+                            <td>{{task.n_id}}</td>
+
+                            <td>{{task.n_date}}</td>
+                            <td>{{task.n_ixtisas}}</td>
+                            <td>{{task.n_universtet}}</td>
+                            <td>{{task.n_haqqinda}}</td>
+
+                            <td>
+
+                                <a href="/nurlan/delete/{{task.n_id}}"><i class="fas fa-trash-alt"></i></a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+
+
+                    </table>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        </div>
+        </div>
+
+        </div>
+        </div>
+
+    </section>
+    <section id="Portfolio">
+        <div class="container1">
+            <div class="shodow1"></div>
+            <div class="arxa">PORTFOLIO</div>
+            <h1>My Work</h1>
+            <div class="span"> <span></span></div>
+
+            <div class="resim">
+                <div class="ikinc ">
+                    <div class="send ">
+                        <p>SEND US A NOTE</p>
+                    </div>
+                    <div class="soninput ">
+                        <form action="/cahan" method="POST" enctype="multipart/form-data">
+                            <div class="labelinput ">
+                                <label for="img"><p>Select image:</p></label>
+                                <input type="file" id="img" name="img" accept="image/*">
+
+
+                            </div>
+
+                            <div>
+                                <div class="button1 "> <button type="submit ">
+                                    <p>Gonder</p>
+                                </button></div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+                <table class="table">
+
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Sekil</th>
+                        <th scope="col">Tarix</th>
+
+
+
+                    </tr>
+
+
+                    {% for emr in emrler %}
+                    <tr>
+                        <td>{{emr.n_id}}</td>
+                        <td>
+                            <img src="../static/uploads/{{emr.n_img}}" alt="" class="img-thumbnail" style="width: 100px;">
+                        </td>
+
+
+                        <td>{{emr.n_date}}</td>
+
+                        <td>
+
+                            <a href="/cahan/delete/{{emr.n_id}}"><i class="fas fa-trash-alt"></i></a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+
+
+                </table>
+            </div>
+
+
+        </div>
+    </section>
+    <section id="Testimonial">
+        <div class="container1">
+            <div class="shodow1"></div>
+            <div class="arxa">Testimonial</div>
+            <h1>Client speak</h1>
+            <div class="span"> <span></span></div>
+            <div class="clents">
+                <div class="ikinc ">
+                    <div class="send ">
+                        <p>SEND US A NOTE</p>
+                    </div>
+                    <div class="soninput ">
+                        <form action="/girov" method="POST" enctype="multipart/form-data">
+                            <div class="labelinput ">
+                                <label for="img"><p>Select image:</p></label>
+                                <input type="file" id="img" name="img" accept="image/*">
+                                <input type="text " placeholder="Ad" name='ad'>
+                                <input type="text " placeholder="Adress" name='adress'>
+                                <input type="text " placeholder="Paragraf" name='paragraf'>
+                            </div>
+
+                            <div>
+                                <div class="button1 "> <button type="submit ">
+                                    <h4>Gonder</h4>
+                                </button></div>
+                            </div>
+                        </form>
+                    </div>
+                    <table class="table">
+
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Seklinadi</th>
+                            <th scope="col">Ad</th>
+                            <th scope="col">Adress</th>
+                            <th scope="col">Paragraf</th>
+                            <th scope="col">Tarix</th>
+                            <th scope="col">Actions</th>
+
+
+                        </tr>
+
+
+                        {% for test in testler %}
+                        <tr>
+                            <td>{{test.n_id}}</td>
+                            <td>
+                                <img src="../static/uploads/{{test.n_img}}" alt="" class="img-thumbnail" style="width: 100px;">
+                            </td>
+                            <td>{{test.n_ad}}</td>
+                            <td>{{test.n_adress}}</td>
+                            <td>{{test.n_paragraf}}</td>
+                            <td>{{test.n_date}}</td>
+
+                            <td>
+
+                                <a href="/girov/delete/{{test.n_id}}"><i class="fas fa-trash-alt"></i></a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+
+
+
+
+                    </table>
+
+                </div>
+
+
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="Contact">
+        <div class="container1">
+            <div class="shodow1"></div>
+            <div class="arxa">Contact</div>
+            <h1>Get in Touch
+                <div class="span"></div>
+            </h1>
+            <div class="part">
+                <div class="ikinc ">
+                    <div class="send ">
+                        <p>SEND US A NOTE</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <table class="table">
+
+                                <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Surname</th>
+                                    <th scope="col">Textarea</th>
+
+                                </tr>
+
+
+                                {% for istifadeci in users %}
+                                <tr>
+                                    <td>{{istifadeci['ad']}}</td>
+                                    <td>{{istifadeci['soyad']}}</td>
+                                    <td>{{istifadeci['textarea']}}</td>
+
+
+                                    <td>
+
+                                        <a href=""><i class="fas fa-trash-alt"></i></a>
+                                    </td>
+                                </tr>
+                                {% endfor %}
+
+
+                            </table>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+    </section>
+    <section id="end">
+        <div class="container1">
+            <div class="endd">
+                <div class="end1">
+                    <div>Copyright © 2021</div>
+                    <div class="Nurlan">Nurlan</div>
+                    <div>. All Rights Reserved.</div>
+                </div>
+                <div class="end2">
+                    <div>Terms&Policy</div>
+                    <div>Disclamier</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
