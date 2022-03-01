@@ -1014,6 +1014,12 @@
             width: 350px;
             height: 400px;
         }
+        .paragraf {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
         .left h1 {
             font-size: 3em;
         }
