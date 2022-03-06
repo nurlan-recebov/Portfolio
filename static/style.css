@@ -319,7 +319,7 @@
             position: relative;
             animation: mymove 3s infinite;
             z-index: 100px;
-            -webkit-animation: mymove 3s infinite;
+            -webkit-animation: ;
         }
         
         @keyframes mymove {
@@ -944,7 +944,7 @@
                 text-align: center;
             }
             .yazi {
-                width: 360px;
+                width: 340px;
             }
             .metnn {
                 margin-bottom: 30px;
