@@ -37,3 +37,6 @@ function myFunction() {
 function nurlan() {
     document.getElementById("menu").style.display = "none";
 }
+window.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+}, false);
