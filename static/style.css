@@ -1,1465 +1,1461 @@
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: "Poppins", sans-serif;
-        }
-        
-        .container {
-            max-width: 100%;
-            margin: 0 auto;
-            border: 1px solid black;
-        }
-        
-        #Home {
-            background-color: #111418;
-        }
-        
-        #About-Me {
-            background-color: #212529;
-        }
-        
-        #WhatIdo {
-            background-color: #212529 !important;
-        }
-        
-        #Resume {
-            background-color: #212529;
-        }
-        
-        #Portfolio {
-            background-color: #212529;
-        }
-        
-        #Testimonial {
-            background-color: #212529;
-        }
-        
-        #Contact {
-            background-color: #212529;
-        }
-        
-        #end {
-            background-color: #111418 !important;
-        }
-        
-        html {
-            scroll-behavior: smooth;
-        }
-        
-        #WhatIdo {
-            /* height: calc(100%-66px); */
-            max-width: 100%;
-        }
-        
-        .yuxari {
-            max-width: 100%;
-        }
-        
-        .right {
-            width: 100vw;
-            height: 66px;
-            background-color: rgba(0, 0, 0, 0.8);
-            justify-content: space-around;
-            display: flex;
-            align-items: center;
-            z-index: 1000;
-            top: 0px;
-            position: fixed;
-            color: white;
-        }
-        
-        @media only screen and (max-width: 768px) {
-            /* .right {
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: "Poppins", sans-serif;
+            }
+            
+            .container {
+                max-width: 100%;
+                margin: 0 auto;
+                border: 1px solid black;
+            }
+            
+            #Home {
+                background-color: #111418;
+            }
+            
+            #About-Me {
+                background-color: #212529;
+            }
+            
+            #WhatIdo {
+                background-color: #212529 !important;
+            }
+            
+            #Resume {
+                background-color: #212529;
+            }
+            
+            #Portfolio {
+                background-color: #212529;
+            }
+            
+            #Testimonial {
+                background-color: #212529;
+            }
+            
+            #Contact {
+                background-color: #212529;
+            }
+            
+            #end {
+                background-color: #111418 !important;
+            }
+            
+            html {
+                scroll-behavior: smooth;
+            }
+            
+            #WhatIdo {
+                /* height: calc(100%-66px); */
+                max-width: 100%;
+            }
+            
+            .yuxari {
+                max-width: 100%;
+            }
+            
+            .right {
+                width: 100vw;
+                height: 66px;
+                background-color: rgba(0, 0, 0, 0.8);
+                justify-content: space-around;
+                display: flex;
+                align-items: center;
+                z-index: 1000;
+                top: 0px;
+                position: fixed;
+                color: white;
+            }
+            
+            @media only screen and (max-width: 768px) {
+                /* .right {
             justify-content: space-around;
             display: flex;
             align-items: center;
         } */
-        }
-        
-        .bars {
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            display: none;
-        }
-        
-        .adlar {
-            display: flex;
-        }
-        
-        .tammenyu {
-            display: flex;
-        }
-        
-        .menyu ul li a {
-            font-family: "Poppins", sans-serif;
-            font-size: 15px;
-            text-decoration: none;
-            color: white;
-            list-style-type: none;
-        }
-        
-        .icons ul {
-            display: flex;
-            list-style-type: none;
-        }
-        
-        .menyu ul li:hover a {
-            color: aqua;
-            border: 1px solid turquoise;
-        }
-        
-        .icons i:hover {
-            color: turquoise;
-        }
-        
-        .menyu ul li {
-            list-style-type: none;
-            display: flex;
-            margin-left: 30px;
-        }
-        
-        .menyu ul {
-            display: flex;
-            margin-right: 10px;
-        }
-        
-        .img h1 {
-            font-family: "Poppins", sans-serif;
-            color: white;
-        }
-        
-        .right h1 {
-            margin-left: 11px;
-        }
-        
-        .icons {
-            color: white;
-        }
-        
-        .icons ul i {
-            margin-right: 10px;
-            color: rgba(250, 250, 250, 0.9);
-        }
-        
-        .left {
-            position: relative;
-            background-size: cover;
-            background-repeat: no-repeat;
-            max-width: 100%;
-            height: 680px;
-            box-sizing: border-box;
-            background-image: url(../static/image/mac2.jpg);
-            animation: slide 25s infinite;
-            /*animation-fill-mode: forwards;
-        */
-            -webkit-animation: slide 20s infinite;
-            -webkit-animation: slide 25s infinite;
-        }
-        
-        @keyframes slide {
-            25% {
-                background-image: url(../static/image/slide6.jpg);
             }
-            50% {
-                background-image: url(../static/image/mac4.jpg);
-            }
-            75% {
-                background-image: url(../static/image/s1.jpg);
-            }
-            100% {
-                background-image: url(../static/image/black.jpg);
-            }
-        }
-        
-        .menu ul li a {
-            font-family: "Poppins", sans-serif;
-            font-size: 15px;
-            text-decoration: none;
-            color: white;
-            list-style-type: none;
-            list-style-type: none;
-        }
-        
-        .menu ul {
-            list-style-type: none;
-            text-decoration: none;
-            /* margin-top: 10%; */
-        }
-        
-        .menu ul li {
-            text-decoration: none;
-            list-style-type: none;
-            border-bottom: 1px solid white;
-        }
-        
-        .menu {
-            position: fixed;
-            background-color: rgba(0, 0, 0, 0.8);
-            width: 100vw;
-            height: 80vh;
-            z-index: 1;
-            display: none;
-            top: 65px;
-        }
-        
-        .scroll-button button {
-            position: fixed;
-            bottom: 10px;
-            right: 10px;
-            width: 2.6354319180087846vw;
-            height: 5.76vh;
-            border-radius: 50%;
-            color: #fff;
-            background-color: rgba(0, 0, 0, 0.301);
-            box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
-            border: none;
-            outline: none;
-            -webkit-border-radius: ;
-            -moz-border-radius: ;
-            -ms-border-radius: ;
-            -o-border-radius: ;
-        }
-        
-        .scroll-button button:hover {
-            background-color: turquoise;
-        }
-        
-        .bir {
-            position: absolute;
-            top: 2%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 100%;
-            color: #dee3e4;
-            font-family: "Poppins", sans-serif;
-            text-align: center;
-        }
-        
-        .bir p {
-            font-family: "Poppins", sans-serif;
-            font-size: 28px !important;
-            font-family: "Poppins", sans-serif !important;
-        }
-        
-        .left h1 {
-            font-family: "Poppins", sans-serif;
-            position: relative;
-            color: #fff;
-            text-transform: uppercase;
-            font-size: 4em;
-            letter-spacing: 4px;
-            overflow: hidden;
-            background: linear-gradient(90deg, #000, #fff, #000);
-            background-repeat: no-repeat;
-            animation: animate 3s linear infinite;
-            background-size: 80%;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            -webkit-animation: animate 3s linear infinite;
-        }
-        
-        .left {}
-        
-        @keyframes animate {
-            0% {
-                background-position: -500%;
-            }
-            100% {
-                background-position: 500%;
-            }
-        }
-        
-        .bir button {
-            margin-top: 30px;
-            border-radius: 30px;
-            width: 150px;
-            height: 50px;
-            font-size: 18px;
-            font-weight: bolder;
-            background: none;
-            border: 2px solid #20c997;
-            color: #20c997;
-            cursor: pointer;
-            transition: ease all 0.4s;
-            font-family: "Poppins", sans-serif;
-            -webkit-border-radius: ;
-            -moz-border-radius: ;
-            -ms-border-radius: ;
-            -o-border-radius: ;
-            -webkit-transition: ease all 0.4s;
-            -moz-transition: ease all 0.4s;
-            -ms-transition: ease all 0.4s;
-            -o-transition: ease all 0.4s;
-        }
-        
-        .left .bir button:hover {
-            background: #20c997;
-            color: white;
-            transition: ease all 0.3s;
-            -webkit-transition: ease all 0.3s;
-            -moz-transition: ease all 0.3s;
-            -ms-transition: ease all 0.3s;
-            -o-transition: ease all 0.3s;
-        }
-        
-        .shadow {
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.8);
-        }
-        
-        .down i {
-            color: white;
-            font-size: 30px;
-            text-align: center;
-            position: relative;
-            animation: mymove 3s infinite;
-            z-index: 100px;
-            -webkit-animation: ;
-        }
-        
-        @keyframes mymove {
-            from {
-                top: 0px;
-            }
-            to {
-                top: 80px;
-            }
-        }
-        
-        @media only screen and (max-width: 992px) {
+            
             .bars {
-                display: block;
-            }
-            .menyu ul {
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 display: none;
             }
-        }
-        /*  ikinci section  start*/
-        
-        .header {
-            /* height: 100%; */
-            border: 1px solid #212529;
-            text-align: center;
-            position: relative;
-        }
-        
-        .arxa {
-            font-size: 7em;
-            font-family: "Poppins", sans-serif;
-            color: #495057;
-            background-color: #212529;
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            margin-top: 80px;
-            font-style: bold;
-        }
-        /* .test  {
+            
+            .adlar {
+                display: flex;
+            }
+            
+            .tammenyu {
+                display: flex;
+            }
+            
+            .menyu ul li a {
+                font-family: "Poppins", sans-serif;
+                font-size: 15px;
+                text-decoration: none;
+                color: white;
+                list-style-type: none;
+            }
+            
+            .icons ul {
+                display: flex;
+                list-style-type: none;
+            }
+            
+            .menyu ul li:hover a {
+                color: aqua;
+                border: 1px solid turquoise;
+            }
+            
+            .icons i:hover {
+                color: turquoise;
+            }
+            
+            .menyu ul li {
+                list-style-type: none;
+                display: flex;
+                margin-left: 30px;
+            }
+            
+            .menyu ul {
+                display: flex;
+                margin-right: 10px;
+            }
+            
+            .img h1 {
+                font-family: "Poppins", sans-serif;
+                color: white;
+            }
+            
+            .icons {
+                color: white;
+            }
+            
+            .icons ul i {
+                margin-right: 10px;
+                color: rgba(250, 250, 250, 0.9);
+            }
+            
+            .left {
+                position: relative;
+                background-size: cover;
+                background-repeat: no-repeat;
+                max-width: 100%;
+                height: 680px;
+                box-sizing: border-box;
+                background-image: url(../static/image/mac2.jpg);
+                animation: slide 25s infinite;
+                /*animation-fill-mode: forwards;
+        */
+                -webkit-animation: slide 20s infinite;
+                -webkit-animation: slide 25s infinite;
+            }
+            
+            @keyframes slide {
+                25% {
+                    background-image: url(../static/image/slide6.jpg);
+                }
+                50% {
+                    background-image: url(../static/image/mac4.jpg);
+                }
+                75% {
+                    background-image: url(../static/image/s1.jpg);
+                }
+                100% {
+                    background-image: url(../static/image/black.jpg);
+                }
+            }
+            
+            .menu ul li a {
+                font-family: "Poppins", sans-serif;
+                font-size: 15px;
+                text-decoration: none;
+                color: white;
+                list-style-type: none;
+                list-style-type: none;
+            }
+            
+            .menu ul {
+                list-style-type: none;
+                text-decoration: none;
+                /* margin-top: 10%; */
+            }
+            
+            .menu ul li {
+                text-decoration: none;
+                list-style-type: none;
+                border-bottom: 1px solid white;
+            }
+            
+            .menu {
+                position: fixed;
+                background-color: rgba(0, 0, 0, 0.8);
+                width: 100vw;
+                height: 80vh;
+                z-index: 1;
+                display: none;
+                top: 65px;
+            }
+            
+            .scroll-button button {
+                position: fixed;
+                bottom: 10px;
+                right: 10px;
+                width: 2.6354319180087846vw;
+                height: 5.76vh;
+                border-radius: 50%;
+                color: #fff;
+                background-color: rgba(0, 0, 0, 0.301);
+                box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
+                border: none;
+                outline: none;
+                -webkit-border-radius: ;
+                -moz-border-radius: ;
+                -ms-border-radius: ;
+                -o-border-radius: ;
+            }
+            
+            .scroll-button button:hover {
+                background-color: turquoise;
+            }
+            
+            .bir {
+                position: absolute;
+                top: 2%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                color: #dee3e4;
+                font-family: "Poppins", sans-serif;
+                text-align: center;
+            }
+            
+            .bir p {
+                font-family: "Poppins", sans-serif;
+                font-size: 28px !important;
+                font-family: "Poppins", sans-serif !important;
+            }
+            
+            .left h1 {
+                font-family: "Poppins", sans-serif;
+                position: relative;
+                color: #fff;
+                text-transform: uppercase;
+                font-size: 4em;
+                letter-spacing: 4px;
+                overflow: hidden;
+                background: linear-gradient(90deg, #000, #fff, #000);
+                background-repeat: no-repeat;
+                animation: animate 3s linear infinite;
+                background-size: 80%;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                -webkit-animation: animate 3s linear infinite;
+            }
+            
+            .left {}
+            
+            @keyframes animate {
+                0% {
+                    background-position: -500%;
+                }
+                100% {
+                    background-position: 500%;
+                }
+            }
+            
+            .bir button {
+                margin-top: 30px;
+                border-radius: 30px;
+                width: 150px;
+                height: 50px;
+                font-size: 18px;
+                font-weight: bolder;
+                background: none;
+                border: 2px solid #20c997;
+                color: #20c997;
+                cursor: pointer;
+                transition: ease all 0.4s;
+                font-family: "Poppins", sans-serif;
+                -webkit-border-radius: ;
+                -moz-border-radius: ;
+                -ms-border-radius: ;
+                -o-border-radius: ;
+                -webkit-transition: ease all 0.4s;
+                -moz-transition: ease all 0.4s;
+                -ms-transition: ease all 0.4s;
+                -o-transition: ease all 0.4s;
+            }
+            
+            .left .bir button:hover {
+                background: #20c997;
+                color: white;
+                transition: ease all 0.3s;
+                -webkit-transition: ease all 0.3s;
+                -moz-transition: ease all 0.3s;
+                -ms-transition: ease all 0.3s;
+                -o-transition: ease all 0.3s;
+            }
+            
+            .shadow {
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.8);
+            }
+            
+            .down i {
+                color: white;
+                font-size: 30px;
+                text-align: center;
+                position: relative;
+                animation: mymove 3s infinite;
+                z-index: 100px;
+                -webkit-animation: ;
+            }
+            
+            @keyframes mymove {
+                from {
+                    top: 0px;
+                }
+                to {
+                    top: 80px;
+                }
+            }
+            
+            @media only screen and (max-width: 992px) {
+                .bars {
+                    display: block;
+                }
+                .menyu ul {
+                    display: none;
+                }
+            }
+            /*  ikinci section  start*/
+            
+            .header {
+                /* height: 100%; */
+                border: 1px solid #212529;
+                text-align: center;
+                position: relative;
+            }
+            
+            .arxa {
+                font-size: 7em;
+                font-family: "Poppins", sans-serif;
+                color: #495057;
+                background-color: #212529;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                margin-top: 80px;
+                font-style: bold;
+            }
+            /* .test  {
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
 } */
-        
-        .span {
-            background-color: turquoise;
-            text-align: center;
-            height: 3px;
-            width: 90px;
-            margin-left: 440px;
-            position: relative;
-            margin-top: 12px;
-            margin-right: auto !important;
-            margin-left: auto !important;
-        }
-        
-        .shadow1 {
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.9);
-        }
-        
-        .header h1 {
-            color: white;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-            margin-top: 140px;
-            position: relative;
-            text-align: center;
-        }
-        
-        .yazi {
-            width: 400px;
-            text-align: center;
-            color: white;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        }
-        
-        .yazi .ad {
-            color: turquoise;
-        }
-        
-        .yazi p {
-            color: #ced4da;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        }
-        
-        .cumle p {
-            color: #ced4da;
-        }
-        
-        .bolumm {
-            display: flex;
-            margin-top: 80px;
-            justify-content: space-around;
-        }
-        
-        .yazi span {
-            color: turquoise;
-        }
-        
-        .xeber-item h2 {
-            color: turquoise;
-        }
-        
-        .bolum {
-            width: 400px;
-            height: 400px;
-            background-color: #111418;
-            display: flex;
-            flex-direction: column;
-            padding: 20px;
-        }
-        
-        .bolum p {
-            font-family: "Poppins", sans-serif;
-            color: #dee3e4;
-        }
-        
-        .inputs input {
-            background: none;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-            color: white;
-            border: none;
-            width: 350px;
-            font-size: 1.2em;
-            height: 50px;
-            border-bottom: 1px solid white;
-        }
-        
-        .inputs button {
-            background-color: turquoise;
-            width: 150px;
-            height: 50px;
-            box-sizing: border-box;
-            outline: none;
-            border: none;
-            border-radius: 30px;
-            margin-top: 30px;
-            text-decoration: none;
-            list-style-type: none;
-            border-bottom: none;
-            -webkit-border-radius: 30px;
-            -moz-border-radius: 30px;
-            -ms-border-radius: 30px;
-            -o-border-radius: 30px;
-            margin-bottom: 30px;
-        }
-        
-        .button p {
-            color: white;
-            list-style-type: none;
-            border-bottom: none;
-            text-decoration: none;
-        }
-        
-        .button a {
-            list-style-type: none;
-            text-decoration: none;
-        }
-        /* section 3 start */
-        
-        #WhatIdo {
-            max-height: 5800px !important;
-        }
-        
-        #Resume {
-            max-height: 5800px!important;
-        }
-        
-        #Portfolio {
-            max-height: 5800px !important;
-        }
-        
-        #Testimonial {
-            max-height: 5800px !important;
-        }
-        
-        #Contact {
-            max-height: 5800px !important;
-        }
-        
-        .tam {
-            display: grid;
-            grid-template-columns: 50% 50%;
-            grid-template-rows: 50% 50%;
-            place-items: center;
-            gap: 30px;
-            margin-top: 70px;
-            margin-bottom: 40px;
-        }
-        
-        .tam .icon i {
-            font-size: 80px;
-            color: turquoise;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            box-sizing: border-box;
-            background-color: #202020;
-            margin-left: 30px;
-            margin-right: 5px;
-            padding: 10px;
-        }
-        
-        .tam h2 {
-            color: white;
-            font-family: "Roboto", sans-serif;
-            margin-top: 1%;
-            font-weight: 400;
-        }
-        
-        .tam p {
-            font-family: "Roboto", sans-serif;
-            color: white;
-            display: block;
-        }
-        
-        .movcud {
-            /* margin-top: 5%; */
-            text-align: center;
-        }
-        
-        .one {
-            display: grid;
-            grid-template-columns: 50% 50%;
-            place-items: center;
-            margin-top: 60px;
-            margin-bottom: 20px;
-        }
-        
-        .movcud h2 {
-            color: peru;
-            font-weight: 300;
-        }
-        
-        .qutu span {
-            background: tomato;
-            border-radius: 5px;
-            color: white;
-            padding: 5px;
-        }
-        
-        .qutu p {
-            color: white;
-        }
-        
-        .qutu {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-        }
-        
-        .movcud h3 {
-            color: turquoise;
-            font-weight: 400;
-        }
-        
-        .movcud .p {
-            color: rgba(255, 255, 255, 0.5) !important;
-            font-family: "Poppins", sans-serif;
-        }
-        
-        .qutu {
-            background-color: #111418;
-            width: 300px;
-            height: 300px;
-            padding: 20px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-        /* section portfolio */
-        
-        .photo ul {
-            display: flex;
-            list-style-type: none;
-            text-decoration: none;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .photo ul li :hover {
-            border-bottom: 2px solid turquoise;
-        }
-        
-        .photo ul li a {
-            text-decoration: none;
-            list-style-type: none;
-            margin-left: 20px;
-            color: white;
-            font-size: 18px;
-            font-family: "Poppins", sans-serif;
-            border: none;
-        }
-        
-        .photo {
-            margin-top: 50px;
-        }
-        
-        .resim img {
-            width: 445px;
-            height: 400px;
-            object-fit: cover;
-        }
-        
-        .resim {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-        }
-        
-        .resimler {
-            text-align: center;
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-        
-        .clents {
-            display: flex;
-            margin-top: 40px;
-            overflow: hidden;
-            position: relative;
-            justify-content: space-around;
-        }
-        
-        .cle1 {
-            display: flex;
-            margin-left: 40px;
-            margin-top: 30px;
-        }
-        
-        .cle1 img {
-            border-radius: 55%;
-            margin-left: 20px;
-            width: 20%;
-            height: 20%;
-            object-fit: cover;
-            -webkit-border-radius: 55%;
-            -moz-border-radius: 55%;
-            -ms-border-radius: 55%;
-            -o-border-radius: 55%;
-        }
-        
-        .cle1 h2 {
-            color: white;
-            font-family: "Poppins", sans-serif;
-            border: none;
-            margin-left: 10px;
-            font-weight: 500;
-            color: turquoise;
-        }
-        
-        .cle1 h3 {
-            font-family: "Poppins", sans-serif;
-            color: rgba(255, 255, 255, 0.5) !important;
-            margin-left: 10px;
-            font-weight: 400;
-        }
-        
-        .clents p {
-            color: #dee3e4;
-            font-family: "Poppins", sans-serif;
-            width: 270px;
-            margin-left: 90px;
-        }
-        
-        .stars ul {
-            display: flex;
-            list-style-type: none;
-            margin-left: 150px;
-        }
-        
-        .stars ul li i {
-            color: yellow;
-        }
-        
-        .ha {
-            background-color: #111418;
-            width: 460px;
-            height: 360px;
-            box-sizing: border-box;
-            margin-bottom: 10px;
-        }
-        
-        .client {
-            display: flex;
-            transition: 0, 5s ease;
-            -webkit-transition: 0, 5s ease;
-            -moz-transition: 0, 5s ease;
-            -ms-transition: 0, 5s ease;
-            -o-transition: 0, 5s ease;
-            margin-top: 60px;
-            margin-bottom: 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        .ha1 {
-            margin-top: 20px;
-            background-color: #111418;
-            margin-left: 30px;
-            margin-right: 30px;
-            text-align: center;
-        }
-        
-        #slideriki {
-            transition: 5s linear;
-            -webkit-transition: 5s linear;
-            -moz-transition: 5s linear;
-            -ms-transition: 5s linear;
-            -o-transition: 5s linear;
-        }
-        
-        .clebutton i {
-            font-size: 10px;
-            color: #20c997;
-            background: none;
-        }
-        
-        .clebutton {
-            position: absolute;
-            display: inline-block;
-            cursor: pointer;
-        }
-        
-        .clebutton button {
-            margin-top: 10px;
-            background: none;
-            list-style-type: none;
-            text-decoration: none;
-            border-radius: 50%;
-            -webkit-border-radius: 50%;
-            -moz-border-radius: 50%;
-            -ms-border-radius: 50%;
-            -o-border-radius: 50%;
-        }
-        
-        .adress {
-            color: rgb(32, 26, 26);
-            font-family: "Poppins", sans-serif;
-            text-align: left;
-            color: rgba(250, 250, 250, 0.9);
-        }
-        
-        .adress p:nth-child(1) {
-            font-size: 1.3125rem !important;
-        }
-        
-        .nomre {
-            display: flex;
-        }
-        
-        .mail {
-            display: flex;
-        }
-        
-        .Tam {
-            width: 300px;
-            height: 100%;
-            margin-left: 20px;
-        }
-        
-        .nomre i {
-            color: turquoise;
-            border: none;
-            font-size: 20px;
-            margin-top: 20px;
-        }
-        
-        .mail i {
-            color: turquoise;
-            border: none;
-            font-size: 20px;
-            margin-top: 20px;
-        }
-        
-        .nomre p {
-            color: rgba(250, 250, 250, 0.9);
-            margin-left: 10px;
-        }
-        
-        .mail p {
-            margin-left: 10px;
-            color: white;
-        }
-        
-        .Fol p {
-            font-size: 1.3125rem !important;
-            color: rgba(250, 250, 250, 0.9);
-        }
-        
-        .Fol {
-            text-align: left;
-        }
-        
-        .Fol i {
-            font-size: 20px;
-            color: white;
-            margin-right: 6px;
-            list-style-type: none;
-            text-decoration: none;
-        }
-        
-        .Fol ul :hover {
-            color: aqua;
-        }
-        
-        .Fol ul {
-            text-decoration: none;
-            list-style-type: none;
-            padding: 0;
-        }
-        
-        .complete {
-            display: flex;
-            margin-top: 100px;
-            justify-content: space-around;
-        }
-        
-        .send p {
-            color: rgba(250, 250, 250, 0.9);
-            font-family: "Poppins", sans-serif;
-            font-size: 1.3125rem !important;
-        }
-        
-        .soninput {
-            display: flex;
-            margin-bottom: 20px;
-        }
-        
-        .labelinput {
-            display: flex;
-        }
-        
-        .soninput input {
-            background: none;
-            border: none;
-            width: 270px;
-            height: 40px;
-            font-family: "Poppins", sans-serif;
-            font-size: 20px;
-            background-color: #202020;
-            margin-right: 20px;
-            margin-left: 20px;
-            padding-left: 20px;
-        }
-        
-        .textarea textarea {
-            font-family: "Poppins", sans-serif;
-            background-color: #202020;
-            border: none;
-            margin-left: 0px;
-            width: 630px;
-            height: 150px;
-            padding: 20px 20px;
-            box-sizing: border-box;
-            margin-top: 20px;
-        }
-        
-        .button1 button {
-            border-radius: 30px;
-            background-color: turquoise;
-            width: 150px;
-            height: 50px;
-            border: 1px solid #495057;
-            cursor: pointer;
-            outline: none;
-            box-sizing: border-box;
-            text-decoration: none;
-            -webkit-border-radius: 30px;
-            -moz-border-radius: 30px;
-            -ms-border-radius: 30px;
-            -o-border-radius: 30px;
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-        
-        .button1 a {
-            text-decoration: none;
-            list-style-type: none;
-        }
-        
-        .button1 p {
-            background: none;
-            color: white;
-            border: none;
-            text-decoration: none;
-            background-color: none;
-            font-family: "Poppins", sans-serif;
-        }
-        
-        #end {
-            background-color: #111418 !important;
-            height: 100px !important;
-        }
-        
-        .end {
-            display: flex;
-            justify-content: space-between;
-            color: white;
-            margin: 0 10px;
-            align-items: center;
-        }
-        
-        .end span {
-            color: turquoise;
-        }
-        
-        .visibility {
-            visibility: hidden;
-        }
-        
-        @media only screen and (max-width: 400px) {
-            .bolumm {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
+            
+            .span {
+                background-color: turquoise;
                 text-align: center;
+                height: 3px;
+                width: 90px;
+                margin-left: 440px;
+                position: relative;
+                margin-top: 12px;
+                margin-right: auto !important;
+                margin-left: auto !important;
             }
-            .yazi {
-                width: 360px;
+            
+            .shadow1 {
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.9);
             }
-            .metnn {
-                margin-bottom: 30px;
-                text-align: center;
-            }
-            .scroll-button button {
-                position: static;
-            }
-            .tam {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-            .resim {
-                display: grid;
-                grid-template-columns: 1fr;
-            }
-            .resim img {
-                width: 349px;
-                height: 349px;
-            }
-            .client {
-                display: flex;
-                flex-direction: column;
-                transition: 0, 5s ease;
-                -webkit-transition: 0, 5s ease;
-                -moz-transition: 0, 5s ease;
-                -ms-transition: 0, 5s ease;
-                -o-transition: 0, 5s ease;
-            }
-            .labelinput {
-                display: flex;
-                flex-direction: column;
-            }
-            /* form {
-            position: inherit;
-        } */
-            .soninput input {
-                width: 326px;
-                margin-top: 10px;
-                height: 52px;
-            }
-            .textarea textarea {
-                width: 350px;
-                height: 148px;
-            }
-            .one {
-                display: flex;
-                flex-direction: column;
-            }
-            .arxa {
-                font-size: 3.8em;
-            }
-            .bolum {
-                width: 280px;
-                height: 450px;
-            }
-            .left h1 {
-                font-size: 2.2em;
-            }
-            .cumle {
-                width: 370px;
-                height: 200px;
-            }
-            .paragraf p {
-                text-align: center;
-            }
-            .complete {
-                display: flex;
-                flex-direction: column;
-            }
-            .soninput {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-            .ha {
-                width: 360px;
-                height: 300px;
-            }
-            .end {
-                display: flex;
-                flex-direction: column;
+            
+            .header h1 {
                 color: white;
-                justify-content: center;
-                align-items: center;
-            }
-        }
-        /* telefonumun responsivliyi */
-        
-        @media (min-width: 400px) and (max-width: 576px) {
-            .bolumm {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+                margin-top: 140px;
+                position: relative;
                 text-align: center;
             }
+            
             .yazi {
-                width: 380px;
-            }
-            .metnn {
-                margin-bottom: 30px;
+                width: 400px;
                 text-align: center;
-            }
-            .scroll-button button {
-                position: static;
-            }
-            .tam {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-            .resim {
-                display: grid;
-                grid-template-columns: 1fr;
-            }
-            .resim img {
-                width: 390px;
-                height: 390px;
-            }
-            .client {
-                display: flex;
-                flex-direction: column;
-                transition: 0, 5s ease;
-                -webkit-transition: 0, 5s ease;
-                -moz-transition: 0, 5s ease;
-                -ms-transition: 0, 5s ease;
-                -o-transition: 0, 5s ease;
-            }
-            .labelinput {
-                display: flex;
-                flex-direction: column;
-            }
-            /* form {
-            position: inherit;
-        } */
-            .soninput input {
-                width: 326px;
-                margin-top: 10px;
-                height: 52px;
-            }
-            .textarea textarea {
-                width: 350px;
-                height: 148px;
-            }
-            .one {
-                display: flex;
-                flex-direction: column;
-            }
-            .arxa {
-                font-size: 4.1em;
-            }
-            .bolum {
-                width: 350px;
-                height: 400px;
-            }
-            .left h1 {
-                font-size: 3em;
-            }
-            .cumle {
-                width: 370px;
-                height: 200px;
-            }
-            .paragraf p {
-                text-align: center;
-            }
-            .complete {
-                display: flex;
-                flex-direction: column;
-            }
-            .soninput {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-            .ha {
-                width: 360px;
-                height: 300px;
-            }
-            .end {
-                display: flex;
-                flex-direction: column;
                 color: white;
-                justify-content: center;
-                align-items: center;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
             }
-        }
-        
-        button {
-            cursor: pointer;
-        }
-        
-        @media (min-width: 576px) and (max-width: 768px) {
+            
+            .yazi .ad {
+                color: turquoise;
+            }
+            
+            .yazi p {
+                color: #ced4da;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+            }
+            
+            .cumle p {
+                color: #ced4da;
+            }
+            
             .bolumm {
                 display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                text-align: center;
+                margin-top: 80px;
+                justify-content: space-around;
             }
-            .yazi {
-                width: 380px;
+            
+            .yazi span {
+                color: turquoise;
             }
-            .metnn {
-                margin-bottom: 30px;
-                text-align: center;
+            
+            .xeber-item h2 {
+                color: turquoise;
             }
-            .scroll-button button {
-                position: static;
-            }
-            .tam {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-            .resim {
-                display: grid;
-                grid-template-columns: 1fr;
-            }
-            .resim img {
-                width: 530px;
-                height: 530px;
-            }
-            .client {
-                display: flex;
-                flex-direction: column;
-                transition: 0, 5s ease;
-                -webkit-transition: 0, 5s ease;
-                -moz-transition: 0, 5s ease;
-                -ms-transition: 0, 5s ease;
-                -o-transition: 0, 5s ease;
-            }
-            .labelinput {
-                display: flex;
-                flex-direction: column;
-            }
-            /* form {
-        position: inherit;
-    } */
-            .soninput input {
-                width: 426px;
-                margin-top: 10px;
-                height: 52px;
-            }
-            .textarea textarea {
-                width: 450px;
-                height: 248px;
-            }
-            .one {
-                display: flex;
-                flex-direction: column;
-            }
-            .arxa {
-                font-size: 6em;
-            }
+            
             .bolum {
-                width: 350px;
+                width: 400px;
                 height: 400px;
-            }
-            .left h1 {
-                font-size: 3em;
-            }
-            .cumle {
-                width: 370px;
-                height: 200px;
-            }
-            .paragraf p {
-                text-align: center;
-            }
-            .complete {
+                background-color: #111418;
                 display: flex;
                 flex-direction: column;
+                padding: 20px;
             }
-            .endd {
-                display: flex;
-                flex-direction: column;
+            
+            .bolum p {
+                font-family: "Poppins", sans-serif;
+                color: #dee3e4;
             }
-            .end2 {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+            
+            .inputs input {
+                background: none;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+                color: white;
+                border: none;
+                width: 350px;
+                font-size: 1.2em;
+                height: 50px;
+                border-bottom: 1px solid white;
             }
-            .soninput {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-            .ha {
-                width: 360px;
-                height: 300px;
-            }
-        }
-        
-        @media (min-width: 768px) and (max-width: 992px) {
-            .bolumm {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                text-align: center;
-            }
-            .yazi {
-                width: 380px;
-            }
-            .metnn {
+            
+            .inputs button {
+                background-color: turquoise;
+                width: 150px;
+                height: 50px;
+                box-sizing: border-box;
+                outline: none;
+                border: none;
+                border-radius: 30px;
+                margin-top: 30px;
+                text-decoration: none;
+                list-style-type: none;
+                border-bottom: none;
+                -webkit-border-radius: 30px;
+                -moz-border-radius: 30px;
+                -ms-border-radius: 30px;
+                -o-border-radius: 30px;
                 margin-bottom: 30px;
+            }
+            
+            .button p {
+                color: white;
+                list-style-type: none;
+                border-bottom: none;
+                text-decoration: none;
+            }
+            
+            .button a {
+                list-style-type: none;
+                text-decoration: none;
+            }
+            /* section 3 start */
+            
+            #WhatIdo {
+                max-height: 5800px !important;
+            }
+            
+            #Resume {
+                max-height: 5800px!important;
+            }
+            
+            #Portfolio {
+                max-height: 5800px !important;
+            }
+            
+            #Testimonial {
+                max-height: 5800px !important;
+            }
+            
+            #Contact {
+                max-height: 5800px !important;
+            }
+            
+            .tam {
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: 50% 50%;
+                place-items: center;
+                gap: 30px;
+                margin-top: 70px;
+                margin-bottom: 40px;
+            }
+            
+            .tam .icon i {
+                font-size: 80px;
+                color: turquoise;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                box-sizing: border-box;
+                background-color: #202020;
+                margin-left: 30px;
+                margin-right: 5px;
+                padding: 10px;
+            }
+            
+            .tam h2 {
+                color: white;
+                font-family: "Roboto", sans-serif;
+                margin-top: 1%;
+                font-weight: 400;
+            }
+            
+            .tam p {
+                font-family: "Roboto", sans-serif;
+                color: white;
+                display: block;
+            }
+            
+            .movcud {
+                /* margin-top: 5%; */
                 text-align: center;
             }
-            .scroll-button button {
-                position: static;
+            
+            .one {
+                display: grid;
+                grid-template-columns: 50% 50%;
+                place-items: center;
+                margin-top: 60px;
+                margin-bottom: 20px;
             }
-            .tam {
+            
+            .movcud h2 {
+                color: peru;
+                font-weight: 300;
+            }
+            
+            .qutu span {
+                background: tomato;
+                border-radius: 5px;
+                color: white;
+                padding: 5px;
+            }
+            
+            .qutu p {
+                color: white;
+            }
+            
+            .qutu {
                 display: flex;
+                justify-content: center;
                 flex-direction: column;
+                align-items: center;
+            }
+            
+            .movcud h3 {
+                color: turquoise;
+                font-weight: 400;
+            }
+            
+            .movcud .p {
+                color: rgba(255, 255, 255, 0.5) !important;
+                font-family: "Poppins", sans-serif;
+            }
+            
+            .qutu {
+                background-color: #111418;
+                width: 300px;
+                height: 300px;
+                padding: 20px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            /* section portfolio */
+            
+            .photo ul {
+                display: flex;
+                list-style-type: none;
+                text-decoration: none;
                 justify-content: center;
                 align-items: center;
             }
+            
+            .photo ul li :hover {
+                border-bottom: 2px solid turquoise;
+            }
+            
+            .photo ul li a {
+                text-decoration: none;
+                list-style-type: none;
+                margin-left: 20px;
+                color: white;
+                font-size: 18px;
+                font-family: "Poppins", sans-serif;
+                border: none;
+            }
+            
+            .photo {
+                margin-top: 50px;
+            }
+            
             .resim img {
-                width: 370px;
-                height: 370px;
+                width: 445px;
+                height: 400px;
                 object-fit: cover;
             }
-            .resim {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-            }
-            .client {
-                display: flex;
-                flex-direction: column;
-                transition: 0, 5s ease;
-                -webkit-transition: 0, 5s ease;
-                -moz-transition: 0, 5s ease;
-                -ms-transition: 0, 5s ease;
-                -o-transition: 0, 5s ease;
-            }
-            .labelinput {
-                display: flex;
-                flex-direction: column;
-            }
-            /* form {
-        position: inherit;
-    } */
-            .soninput input {
-                width: 426px;
-                margin-top: 10px;
-                height: 52px;
-            }
-            .textarea textarea {
-                width: 450px;
-                height: 248px;
-            }
-            .one {
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
-            }
-            .arxa {
-                font-size: 7.6em;
-            }
-            .bolum {
-                width: 350px;
-                height: 400px;
-            }
-            .left h1 {
-                font-size: 3em;
-            }
-            .cumle {
-                width: 370px;
-                height: 200px;
-            }
-            .paragraf p {
-                text-align: center;
-            }
-            .complete {
-                display: flex;
-                flex-direction: column;
-            }
-            .endd {
-                display: flex;
-                flex-direction: column;
-            }
-            .end2 {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            .soninput {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-            .ha {
-                width: 360px;
-                height: 300px;
-            }
-        }
-        
-        @media (min-width: 992px) and (max-width: 1200px) {
-            .bolumm {
-                display: flex;
-                align-items: center;
-                justify-content: space-around;
-                text-align: center;
-            }
-            .yazi {
-                width: 380px;
-            }
-            .metnn {
-                margin-bottom: 30px;
-                text-align: center;
-            }
-            .scroll-button button {
-                position: static;
-            }
-            .tam {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-            }
-            .resim img {
-                width: 320px;
-                height: 320px;
-                object-fit: cover;
-            }
+            
             .resim {
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
             }
+            
+            .resimler {
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            
+            .clents {
+                display: flex;
+                margin-top: 40px;
+                overflow: hidden;
+                position: relative;
+                justify-content: space-around;
+            }
+            
+            .cle1 {
+                display: flex;
+                margin-left: 40px;
+                margin-top: 30px;
+            }
+            
+            .cle1 img {
+                border-radius: 55%;
+                margin-left: 20px;
+                width: 20%;
+                height: 20%;
+                object-fit: cover;
+                -webkit-border-radius: 55%;
+                -moz-border-radius: 55%;
+                -ms-border-radius: 55%;
+                -o-border-radius: 55%;
+            }
+            
+            .cle1 h2 {
+                color: white;
+                font-family: "Poppins", sans-serif;
+                border: none;
+                margin-left: 10px;
+                font-weight: 500;
+                color: turquoise;
+            }
+            
+            .cle1 h3 {
+                font-family: "Poppins", sans-serif;
+                color: rgba(255, 255, 255, 0.5) !important;
+                margin-left: 10px;
+                font-weight: 400;
+            }
+            
+            .clents p {
+                color: #dee3e4;
+                font-family: "Poppins", sans-serif;
+                width: 270px;
+                margin-left: 90px;
+            }
+            
+            .stars ul {
+                display: flex;
+                list-style-type: none;
+                margin-left: 150px;
+            }
+            
+            .stars ul li i {
+                color: yellow;
+            }
+            
+            .ha {
+                background-color: #111418;
+                width: 460px;
+                height: 360px;
+                box-sizing: border-box;
+                margin-bottom: 10px;
+            }
+            
             .client {
                 display: flex;
-                flex-direction: column;
                 transition: 0, 5s ease;
                 -webkit-transition: 0, 5s ease;
                 -moz-transition: 0, 5s ease;
                 -ms-transition: 0, 5s ease;
                 -o-transition: 0, 5s ease;
-            }
-            .labelinput {
+                margin-top: 60px;
+                margin-bottom: 20px;
                 display: flex;
-                flex-direction: column;
-            }
-            /* form {
-        position: inherit;
-    } */
-            .soninput input {
-                width: 426px;
-                margin-top: 10px;
-                height: 52px;
-            }
-            .textarea textarea {
-                width: 450px;
-                height: 248px;
-            }
-            .one {
-                display: flex;
-                justify-content: space-around;
                 align-items: center;
+                justify-content: center;
             }
-            .arxa {
-                font-size: 8.2em;
-            }
-            .bolum {
-                width: 350px;
-                height: 400px;
-            }
-            .left h1 {
-                font-size: 3em;
-            }
-            .cumle {
-                width: 370px;
-                height: 200px;
-            }
-            .paragraf p {
+            
+            .ha1 {
+                margin-top: 20px;
+                background-color: #111418;
+                margin-left: 30px;
+                margin-right: 30px;
                 text-align: center;
             }
-            .complete {
-                display: flex;
+            
+            #slideriki {
+                transition: 5s linear;
+                -webkit-transition: 5s linear;
+                -moz-transition: 5s linear;
+                -ms-transition: 5s linear;
+                -o-transition: 5s linear;
             }
-            .endd {
-                display: flex;
-                flex-direction: column;
+            
+            .clebutton i {
+                font-size: 10px;
+                color: #20c997;
+                background: none;
             }
-            .end2 {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+            
+            .clebutton {
+                position: absolute;
+                display: inline-block;
+                cursor: pointer;
             }
-            .soninput {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-            .ha {
-                width: 360px;
-                height: 300px;
-            }
-            .menyu ul li {
+            
+            .clebutton button {
+                margin-top: 10px;
+                background: none;
                 list-style-type: none;
+                text-decoration: none;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+            }
+            
+            .adress {
+                color: rgb(32, 26, 26);
+                font-family: "Poppins", sans-serif;
+                text-align: left;
+                color: rgba(250, 250, 250, 0.9);
+            }
+            
+            .adress p:nth-child(1) {
+                font-size: 1.3125rem !important;
+            }
+            
+            .nomre {
                 display: flex;
+            }
+            
+            .mail {
+                display: flex;
+            }
+            
+            .Tam {
+                width: 300px;
+                height: 100%;
                 margin-left: 20px;
             }
-        }
-        
-        @media (min-width:1200px) and (max-width:1350px) {
-            .resim img {
-                width: 390px;
-                height: 400px;
-                object-fit: cover;
+            
+            .nomre i {
+                color: turquoise;
+                border: none;
+                font-size: 20px;
+                margin-top: 20px;
             }
-        }
+            
+            .mail i {
+                color: turquoise;
+                border: none;
+                font-size: 20px;
+                margin-top: 20px;
+            }
+            
+            .nomre p {
+                color: rgba(250, 250, 250, 0.9);
+                margin-left: 10px;
+            }
+            
+            .mail p {
+                margin-left: 10px;
+                color: white;
+            }
+            
+            .Fol p {
+                font-size: 1.3125rem !important;
+                color: rgba(250, 250, 250, 0.9);
+            }
+            
+            .Fol {
+                text-align: left;
+            }
+            
+            .Fol i {
+                font-size: 20px;
+                color: white;
+                margin-right: 6px;
+                list-style-type: none;
+                text-decoration: none;
+            }
+            
+            .Fol ul :hover {
+                color: aqua;
+            }
+            
+            .Fol ul {
+                text-decoration: none;
+                list-style-type: none;
+                padding: 0;
+            }
+            
+            .complete {
+                display: flex;
+                margin-top: 100px;
+                justify-content: space-around;
+            }
+            
+            .send p {
+                color: rgba(250, 250, 250, 0.9);
+                font-family: "Poppins", sans-serif;
+                font-size: 1.3125rem !important;
+            }
+            
+            .soninput {
+                display: flex;
+                margin-bottom: 20px;
+            }
+            
+            .labelinput {
+                display: flex;
+            }
+            
+            .soninput input {
+                background: none;
+                border: none;
+                width: 270px;
+                height: 40px;
+                font-family: "Poppins", sans-serif;
+                font-size: 20px;
+                background-color: #202020;
+                margin-right: 20px;
+                margin-left: 20px;
+                padding-left: 20px;
+            }
+            
+            .textarea textarea {
+                font-family: "Poppins", sans-serif;
+                background-color: #202020;
+                border: none;
+                margin-left: 0px;
+                width: 630px;
+                height: 150px;
+                padding: 20px 20px;
+                box-sizing: border-box;
+                margin-top: 20px;
+            }
+            
+            .button1 button {
+                border-radius: 30px;
+                background-color: turquoise;
+                width: 150px;
+                height: 50px;
+                border: 1px solid #495057;
+                cursor: pointer;
+                outline: none;
+                box-sizing: border-box;
+                text-decoration: none;
+                -webkit-border-radius: 30px;
+                -moz-border-radius: 30px;
+                -ms-border-radius: 30px;
+                -o-border-radius: 30px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            
+            .button1 a {
+                text-decoration: none;
+                list-style-type: none;
+            }
+            
+            .button1 p {
+                background: none;
+                color: white;
+                border: none;
+                text-decoration: none;
+                background-color: none;
+                font-family: "Poppins", sans-serif;
+            }
+            
+            #end {
+                background-color: #111418 !important;
+                height: 100px !important;
+            }
+            
+            .end {
+                display: flex;
+                justify-content: space-between;
+                color: white;
+                margin: 0 10px;
+                align-items: center;
+            }
+            
+            .end span {
+                color: turquoise;
+            }
+            
+            .visibility {
+                visibility: hidden;
+            }
+            
+            @media only screen and (max-width: 400px) {
+                .bolumm {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                }
+                .yazi {
+                    width: 360px;
+                }
+                .metnn {
+                    margin-bottom: 30px;
+                    text-align: center;
+                }
+                .scroll-button button {
+                    position: static;
+                }
+                .tam {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .resim {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                }
+                .resim img {
+                    width: 349px;
+                    height: 349px;
+                }
+                .client {
+                    display: flex;
+                    flex-direction: column;
+                    transition: 0, 5s ease;
+                    -webkit-transition: 0, 5s ease;
+                    -moz-transition: 0, 5s ease;
+                    -ms-transition: 0, 5s ease;
+                    -o-transition: 0, 5s ease;
+                }
+                .labelinput {
+                    display: flex;
+                    flex-direction: column;
+                }
+                /* form {
+            position: inherit;
+        } */
+                .soninput input {
+                    width: 326px;
+                    margin-top: 10px;
+                    height: 52px;
+                }
+                .textarea textarea {
+                    width: 350px;
+                    height: 148px;
+                }
+                .one {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .arxa {
+                    font-size: 3.8em;
+                }
+                .bolum {
+                    width: 280px;
+                    height: 450px;
+                }
+                .left h1 {
+                    font-size: 2.2em;
+                }
+                .cumle {
+                    width: 370px;
+                    height: 200px;
+                }
+                .paragraf p {
+                    text-align: center;
+                }
+                .complete {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .soninput {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .ha {
+                    width: 360px;
+                    height: 300px;
+                }
+                .end {
+                    display: flex;
+                    flex-direction: column;
+                    color: white;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            /* telefonumun responsivliyi */
+            
+            @media (min-width: 400px) and (max-width: 576px) {
+                .bolumm {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                }
+                .yazi {
+                    width: 380px;
+                }
+                .metnn {
+                    margin-bottom: 30px;
+                    text-align: center;
+                }
+                .scroll-button button {
+                    position: static;
+                }
+                .tam {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .resim {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                }
+                .resim img {
+                    width: 390px;
+                    height: 390px;
+                }
+                .client {
+                    display: flex;
+                    flex-direction: column;
+                    transition: 0, 5s ease;
+                    -webkit-transition: 0, 5s ease;
+                    -moz-transition: 0, 5s ease;
+                    -ms-transition: 0, 5s ease;
+                    -o-transition: 0, 5s ease;
+                }
+                .labelinput {
+                    display: flex;
+                    flex-direction: column;
+                }
+                /* form {
+            position: inherit;
+        } */
+                .soninput input {
+                    width: 326px;
+                    margin-top: 10px;
+                    height: 52px;
+                }
+                .textarea textarea {
+                    width: 350px;
+                    height: 148px;
+                }
+                .one {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .arxa {
+                    font-size: 4.1em;
+                }
+                .bolum {
+                    width: 350px;
+                    height: 400px;
+                }
+                .left h1 {
+                    font-size: 2.7em;
+                }
+                .cumle {
+                    width: 370px;
+                    height: 200px;
+                }
+                .paragraf p {
+                    text-align: center;
+                }
+                .complete {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .soninput {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .ha {
+                    width: 360px;
+                    height: 300px;
+                }
+                .end {
+                    display: flex;
+                    flex-direction: column;
+                    color: white;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            
+            button {
+                cursor: pointer;
+            }
+            
+            @media (min-width: 576px) and (max-width: 768px) {
+                .bolumm {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                }
+                .yazi {
+                    width: 380px;
+                }
+                .metnn {
+                    margin-bottom: 30px;
+                    text-align: center;
+                }
+                .scroll-button button {
+                    position: static;
+                }
+                .tam {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .resim {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                }
+                .resim img {
+                    width: 530px;
+                    height: 530px;
+                }
+                .client {
+                    display: flex;
+                    flex-direction: column;
+                    transition: 0, 5s ease;
+                    -webkit-transition: 0, 5s ease;
+                    -moz-transition: 0, 5s ease;
+                    -ms-transition: 0, 5s ease;
+                    -o-transition: 0, 5s ease;
+                }
+                .labelinput {
+                    display: flex;
+                    flex-direction: column;
+                }
+                /* form {
+        position: inherit;
+    } */
+                .soninput input {
+                    width: 426px;
+                    margin-top: 10px;
+                    height: 52px;
+                }
+                .textarea textarea {
+                    width: 450px;
+                    height: 248px;
+                }
+                .one {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .arxa {
+                    font-size: 6em;
+                }
+                .bolum {
+                    width: 350px;
+                    height: 400px;
+                }
+                .left h1 {
+                    font-size: 3em;
+                }
+                .cumle {
+                    width: 370px;
+                    height: 200px;
+                }
+                .paragraf p {
+                    text-align: center;
+                }
+                .complete {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .endd {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .end2 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .soninput {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .ha {
+                    width: 360px;
+                    height: 300px;
+                }
+            }
+            
+            @media (min-width: 768px) and (max-width: 992px) {
+                .bolumm {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                }
+                .yazi {
+                    width: 380px;
+                }
+                .metnn {
+                    margin-bottom: 30px;
+                    text-align: center;
+                }
+                .scroll-button button {
+                    position: static;
+                }
+                .tam {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .resim img {
+                    width: 370px;
+                    height: 370px;
+                    object-fit: cover;
+                }
+                .resim {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                }
+                .client {
+                    display: flex;
+                    flex-direction: column;
+                    transition: 0, 5s ease;
+                    -webkit-transition: 0, 5s ease;
+                    -moz-transition: 0, 5s ease;
+                    -ms-transition: 0, 5s ease;
+                    -o-transition: 0, 5s ease;
+                }
+                .labelinput {
+                    display: flex;
+                    flex-direction: column;
+                }
+                /* form {
+        position: inherit;
+    } */
+                .soninput input {
+                    width: 426px;
+                    margin-top: 10px;
+                    height: 52px;
+                }
+                .textarea textarea {
+                    width: 450px;
+                    height: 248px;
+                }
+                .one {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+                .arxa {
+                    font-size: 7.6em;
+                }
+                .bolum {
+                    width: 350px;
+                    height: 400px;
+                }
+                .left h1 {
+                    font-size: 3em;
+                }
+                .cumle {
+                    width: 370px;
+                    height: 200px;
+                }
+                .paragraf p {
+                    text-align: center;
+                }
+                .complete {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .endd {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .end2 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .soninput {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .ha {
+                    width: 360px;
+                    height: 300px;
+                }
+            }
+            
+            @media (min-width: 992px) and (max-width: 1200px) {
+                .bolumm {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    text-align: center;
+                }
+                .yazi {
+                    width: 380px;
+                }
+                .metnn {
+                    margin-bottom: 30px;
+                    text-align: center;
+                }
+                .scroll-button button {
+                    position: static;
+                }
+                .tam {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                }
+                .resim img {
+                    width: 320px;
+                    height: 320px;
+                    object-fit: cover;
+                }
+                .resim {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+                }
+                .client {
+                    display: flex;
+                    flex-direction: column;
+                    transition: 0, 5s ease;
+                    -webkit-transition: 0, 5s ease;
+                    -moz-transition: 0, 5s ease;
+                    -ms-transition: 0, 5s ease;
+                    -o-transition: 0, 5s ease;
+                }
+                .labelinput {
+                    display: flex;
+                    flex-direction: column;
+                }
+                /* form {
+        position: inherit;
+    } */
+                .soninput input {
+                    width: 426px;
+                    margin-top: 10px;
+                    height: 52px;
+                }
+                .textarea textarea {
+                    width: 450px;
+                    height: 248px;
+                }
+                .one {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+                .arxa {
+                    font-size: 8.2em;
+                }
+                .bolum {
+                    width: 350px;
+                    height: 400px;
+                }
+                .left h1 {
+                    font-size: 3em;
+                }
+                .cumle {
+                    width: 370px;
+                    height: 200px;
+                }
+                .paragraf p {
+                    text-align: center;
+                }
+                .complete {
+                    display: flex;
+                }
+                .endd {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .end2 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .soninput {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .ha {
+                    width: 360px;
+                    height: 300px;
+                }
+                .menyu ul li {
+                    list-style-type: none;
+                    display: flex;
+                    margin-left: 20px;
+                }
+            }
+            
+            @media (min-width:1200px) and (max-width:1350px) {
+                .resim img {
+                    width: 390px;
+                    height: 400px;
+                    object-fit: cover;
+                }
+            }
