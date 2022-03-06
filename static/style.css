@@ -964,8 +964,8 @@
                 grid-template-columns: 1fr;
             }
             .resim img {
-                width: 350px;
-                height: 350px;
+                width: 349px;
+                height: 349px;
             }
             .client {
                 display: flex;
