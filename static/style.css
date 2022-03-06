@@ -932,6 +932,9 @@
             }
             
             @media only screen and (max-width: 400px) {
+                .inputs input {
+                    width: 320px;
+                }
                 .bolumm {
                     display: flex;
                     flex-direction: column;
