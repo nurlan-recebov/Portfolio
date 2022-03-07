@@ -166,7 +166,8 @@ def add():
 
 istifadeciler=[]
 @app.route('/users',methods=['GET','POST'])
-
+  
+ 
 def users(): 
   if request.method=='POST':
     _ad=request.form['ad']
@@ -179,8 +180,13 @@ def users():
       'textarea':_textarea
     }
     istifadeciler.append(istifadeci)
+    return redirect('/')
+    
+   
+    
     return render_template('admin.html',users=istifadeciler)
   return render_template('admin.html')
+    
 # what I do sectionun app routu
 @app.route('/',methods=['GET','POST'])
 def app_index():
