@@ -302,6 +302,7 @@
                 -ms-transition: ease all 0.3s;
                 -o-transition: ease all 0.3s;
                 border: none;
+                outline: none;
             }
             
             .shadow {
@@ -316,7 +317,7 @@
                 position: relative;
                 animation: mymove 3s infinite;
                 z-index: 100px;
-                -webkit-animation: ;
+                -webkit-animation: mymove 3s infinite;
             }
             
             @keyframes mymove {
@@ -449,7 +450,7 @@
             }
             
             .inputs button {
-                background-color: aqua;
+                background-color: turquoise;
                 width: 150px;
                 height: 50px;
                 box-sizing: border-box;
@@ -469,6 +470,7 @@
             
             .inputs button:hover {
                 background: linear-gradient(90deg, #e84d70 0%, #a337f6 35%, #28a7ed 100%);
+                outline: none;
             }
             
             .button p {
@@ -885,7 +887,7 @@
             
             .button1 button {
                 border-radius: 30px;
-                background: aqua;
+                background: turquoise;
                 width: 150px;
                 height: 50px;
                 border: 1px solid #495057;
@@ -903,6 +905,7 @@
             
             .button1 button:hover {
                 background: linear-gradient(90deg, #e84d70 0%, #a337f6 35%, #28a7ed 100%);
+                outline: none;
             }
             
             .button1 a {
