@@ -181,11 +181,13 @@ def users():
     }
     istifadeciler.append(istifadeci)
     return redirect('/')
+   
     
    
     
-    return render_template('admin.html',users=istifadeciler)
-  return render_template('admin.html')
+  return render_template('admin.html',users=istifadeciler)
+  # return render_template('admin.html')
+ 
     
 # what I do sectionun app routu
 @app.route('/',methods=['GET','POST'])
