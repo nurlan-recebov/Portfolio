@@ -210,10 +210,6 @@
                 box-shadow: 0px 5px 15px rgb(0 0 0 / 15%);
                 border: none;
                 outline: none;
-                -webkit-border-radius: ;
-                -moz-border-radius: ;
-                -ms-border-radius: ;
-                -o-border-radius: ;
             }
             
             .scroll-button button:hover {
