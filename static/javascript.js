@@ -34,9 +34,9 @@ function myFunction() {
     document.getElementById("menu").style.display = "block";
 }
 
-function nurlan() {
-    document.getElementById("menu").style.display = "none";
-}
-window.addEventListener('contextmenu', function(e) {
-    e.preventDefault();
-}, false);
+// function nurlan() {
+//     document.getElementById("menu").style.display = "none";
+// }
+// window.addEventListener('contextmenu', function(e) {
+//     e.preventDefault();
+// }, false);

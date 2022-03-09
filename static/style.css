@@ -88,6 +88,17 @@
                 display: flex;
             }
             
+            .adlar p {
+                /* font-weight: bold; */
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 35px;
+                letter-spacing: -0.3333333432674408px;
+                text-align: left;
+                color: #FFFFFF;
+            }
+            
             .tammenyu {
                 display: flex;
             }
@@ -147,11 +158,11 @@
                 height: 680px;
                 box-sizing: border-box;
                 background-image: url(../static/image/mac2.jpg);
-                animation: slide 25s infinite;
+                animation: slide 30s infinite;
                 /*animation-fill-mode: forwards;
-        */
+                */
                 -webkit-animation: slide 20s infinite;
-                -webkit-animation: slide 25s infinite;
+                -webkit-animation: slide 30s infinite;
             }
             
             @keyframes slide {
@@ -165,7 +176,7 @@
                     background-image: url(../static/image/s1.jpg);
                 }
                 100% {
-                    background-image: url(../static/image/black.jpg);
+                    background-image: url(../static/image/cahan.jpg);
                 }
             }
             
