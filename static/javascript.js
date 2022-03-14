@@ -43,7 +43,7 @@ function nurlan() {
 
 function setbtn() {
 
-    document.getElementById("settings").style.right = "320px"
+    document.getElementById("settings").style.right = "285px"
 
 
 
