@@ -37,13 +37,13 @@ function myFunction() {
 function nurlan() {
     document.getElementById("menu").style.display = "none";
 }
-window.addEventListener('contextmenu', function(e) {
-    e.preventDefault();
-}, false);
+// window.addEventListener('contextmenu', function(e) {
+//     e.preventDefault();
+// }, false);
 
 function setbtn() {
 
-    document.getElementById("settings").style.right = "290px"
+    document.getElementById("settings").style.right = "320px"
 
 
 
@@ -53,7 +53,7 @@ function setbtn() {
 }
 
 function seticon() {
-    document.getElementById("settings").style.right = "50px"
+    document.getElementById("settings").style.right = "60px"
     document.getElementById("sett").style.display = "block";
 
     document.getElementById("setbtn").disabled = true;
