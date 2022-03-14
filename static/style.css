@@ -1562,6 +1562,14 @@
                 background-color: turquoise;
                 border: none;
             }
+            
+            .setbutton:hover {
+                width: 160px;
+                height: 40px;
+                color: white;
+                background: linear-gradient(90deg, #e84d70 0%, #a337f6 35%, #28a7ed 100%);
+                border: none;
+            }
             /* .setcolor:hover {
                 width: 30px;
                 height: 30px;

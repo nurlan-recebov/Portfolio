@@ -79,6 +79,13 @@ function green() {
         nodeList[i].style.backgroundColor = "green";
     }
 }
+
+function setbutton() {
+    const nodeList = document.querySelectorAll(".arxa,.container");
+    for (let i = 0; i < nodeList.length; i++) {
+        nodeList[i].style.backgroundColor = "#212529";
+    }
+}
 // const element = document.getElementById("purple");
 
 // element.addEventListener("click", function() {
