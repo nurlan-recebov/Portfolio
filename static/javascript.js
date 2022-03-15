@@ -37,9 +37,9 @@ function myFunction() {
 function nurlan() {
     document.getElementById("menu").style.display = "none";
 }
-// window.addEventListener('contextmenu', function(e) {
-//     e.preventDefault();
-// }, false);
+window.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+}, false);
 
 function setbtn() {
 
@@ -86,8 +86,3 @@ function setbutton() {
         nodeList[i].style.backgroundColor = "#212529";
     }
 }
-// const element = document.getElementById("purple");
-
-// element.addEventListener("click", function() {
-//     document.querySelector('.arxa').style.backgroundColor = "purple"
-// });
