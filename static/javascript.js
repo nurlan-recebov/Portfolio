@@ -43,7 +43,7 @@ window.addEventListener('contextmenu', function(e) {
 
 function setbtn() {
 
-    document.getElementById("settings").style.right = "285px"
+    document.getElementById("settings").style.right = "286px"
 
 
 
