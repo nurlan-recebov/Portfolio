@@ -41,23 +41,15 @@ window.addEventListener('contextmenu', function(e) {
     e.preventDefault();
 }, false);
 
-function setbtn() {
-
-    document.getElementById("settings").style.right = "286px"
-
-
-
-
-
-    document.getElementById("sett").style.display = "block";
-}
-
-function seticon() {
-    document.getElementById("settings").style.right = "60px"
-    document.getElementById("sett").style.display = "block";
-
-    document.getElementById("setbtn").disabled = true;
-}
+const link = document.querySelector('#settings');
+const setbtn = document.querySelector('#setbtn');
+setbtn.addEventListener("click", function() {
+    if (link.classList.contains("setshows")) {
+        link.classList.remove('setshows')
+    } else {
+        link.classList.add('setshows')
+    }
+});
 
 function purple() {
     const nodeList = document.querySelectorAll(".arxa,.container");

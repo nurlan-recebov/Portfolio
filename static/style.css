@@ -1521,7 +1521,6 @@
                 align-items: center;
                 flex-direction: column;
                 padding: 5px;
-                display: none;
                 text-align: center;
             }
             
@@ -1569,4 +1568,8 @@
                 color: white;
                 background: linear-gradient(90deg, #e84d70 0%, #a337f6 35%, #28a7ed 100%);
                 border: none;
+            }
+            
+            .setshows {
+                right: 286px;
             }
