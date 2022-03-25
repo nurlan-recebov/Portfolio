@@ -1543,7 +1543,7 @@
             }
             
             .setcolor:nth-child(2) {
-                background-color: purple;
+                background-color: #28a7ed;
             }
             
             .setcolor:nth-child(1) {
@@ -1551,7 +1551,7 @@
             }
             
             .setcolor:nth-child(3) {
-                background-color: green;
+                background-color: #e84d70;
             }
             
             .setbutton {

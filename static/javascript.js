@@ -54,7 +54,7 @@ setbtn.addEventListener("click", function() {
 function purple() {
     const nodeList = document.querySelectorAll(".arxa,.container");
     for (let i = 0; i < nodeList.length; i++) {
-        nodeList[i].style.backgroundColor = "purple";
+        nodeList[i].style.backgroundColor = "#28a7ed";
     }
 }
 
@@ -68,7 +68,7 @@ function yellow() {
 function green() {
     const nodeList = document.querySelectorAll(".arxa,.container");
     for (let i = 0; i < nodeList.length; i++) {
-        nodeList[i].style.backgroundColor = "green";
+        nodeList[i].style.backgroundColor = "#e84d70";
     }
 }
 
