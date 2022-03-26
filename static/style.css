@@ -241,7 +241,7 @@
                 position: relative;
                 color: #fff;
                 text-transform: uppercase;
-                font-size: 4em;
+                font-size: 64px;
                 letter-spacing: 4px;
                 overflow: hidden;
                 background: linear-gradient(90deg, #000, #fff, #000);
@@ -976,10 +976,10 @@
                     display: flex;
                     flex-direction: column;
                     transition: 0, 5s ease;
-                    -webkit-transition: 0, 5s ease;
-                    -moz-transition: 0, 5s ease;
-                    -ms-transition: 0, 5s ease;
-                    -o-transition: 0, 5s ease;
+                    -webkit-transition: ;
+                    -moz-transition: ;
+                    -ms-transition: ;
+                    -o-transition: ;
                 }
                 .labelinput {
                     display: flex;
@@ -1002,14 +1002,14 @@
                     flex-direction: column;
                 }
                 .arxa {
-                    font-size: 3.8em;
+                    font-size: 1.8em;
                 }
                 .bolum {
                     width: 280px;
                     height: 450px;
                 }
                 .left h1 {
-                    font-size: 2.2em;
+                    font-size: 1em;
                 }
                 .cumle {
                     width: 370px;
@@ -1104,14 +1104,14 @@
                     flex-direction: column;
                 }
                 .arxa {
-                    font-size: 4.1em;
+                    font-size: 3em;
                 }
                 .bolum {
                     width: 350px;
                     height: 400px;
                 }
                 .left h1 {
-                    font-size: 2.7em;
+                    font-size: 2em;
                 }
                 .cumle {
                     width: 370px;
@@ -1534,10 +1534,10 @@
                 border-radius: 50%;
                 margin-left: 10px;
                 margin-bottom: 10px;
-                -webkit-border-radius: ;
-                -moz-border-radius: ;
-                -ms-border-radius: ;
-                -o-border-radius: ;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
                 cursor: pointer;
                 box-sizing: border-box;
             }
