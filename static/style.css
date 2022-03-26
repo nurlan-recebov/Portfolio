@@ -58,7 +58,7 @@
             .right {
                 width: 100vw;
                 height: 66px;
-                background-color: rgba(0, 0, 0, 0.8);
+                /* background-color: rgba(0, 0, 0, 0.8); */
                 justify-content: space-around;
                 display: flex;
                 align-items: center;
@@ -190,7 +190,7 @@
             
             .menu {
                 position: fixed;
-                background-color: rgba(0, 0, 0, 0.8);
+                /* background-color: rgba(0, 0, 0, 0.8); */
                 width: 100vw;
                 height: 80vh;
                 z-index: 1;
