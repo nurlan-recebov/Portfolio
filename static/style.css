@@ -1060,7 +1060,7 @@
                     font-size: 20px;
                 }
                 .bir p {
-                    font-size: 15px;
+                    font-size: 10px !important;
                 }
                 .bolumm {
                     display: flex;
