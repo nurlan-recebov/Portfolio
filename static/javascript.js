@@ -37,9 +37,9 @@ function myFunction() {
 function nurlan() {
     document.getElementById("menu").style.display = "none";
 }
-// window.addEventListener('contextmenu', function(e) {
-//     e.preventDefault();
-// }, false);
+window.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+}, false);
 
 const link = document.querySelector('#settings');
 const setbtn = document.querySelector('#setbtn');
