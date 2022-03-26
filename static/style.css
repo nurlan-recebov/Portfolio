@@ -942,6 +942,9 @@
             }
             
             @media only screen and (max-width: 400px) {
+                .header h1 {
+                    font-size: 16px;
+                }
                 .inputs input {
                     width: 320px;
                 }
@@ -1047,6 +1050,9 @@
             /* telefonumun responsivliyi */
             
             @media (min-width: 400px) and (max-width: 576px) {
+                .header h1 {
+                    font-size: 16px;
+                }
                 .bolumm {
                     display: flex;
                     flex-direction: column;
