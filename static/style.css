@@ -1059,6 +1059,9 @@
                 .yazi h2 {
                     font-size: 20px;
                 }
+                .bir p {
+                    font-size: 15px;
+                }
                 .bolumm {
                     display: flex;
                     flex-direction: column;
