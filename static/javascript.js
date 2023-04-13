@@ -77,6 +77,6 @@ function green() {
 function setbutton() {
     const nodeList = document.querySelectorAll(".arxa,.container");
     for (let i = 0; i < nodeList.length; i++) {
-        nodeList[i].style.backgroundColor = "white";
+        nodeList[i].style.backgroundColor = "#212529";
     }
 }
